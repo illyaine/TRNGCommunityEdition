@@ -5,6 +5,7 @@
 #include "../specific/specificfx.h"
 #include "train.h"
 #include "../../trng/zPatchesTomb4.h"
+#include "../../trngce/core_hooks.h"
 
 namespace tomb4
 {
@@ -31,6 +32,7 @@ namespace tomb4
 
 		// chiamata in SetupGame() subito DOPO aver caricato il nuovo livello e prima di entrare in fase gioco
 		trng::InizializzaStartLivello();
+		trngce::hooks::NotifyLevelSetupComplete();
 	}
 
 	void ClearFootPrints()

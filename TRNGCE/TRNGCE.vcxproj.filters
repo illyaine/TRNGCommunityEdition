@@ -276,6 +276,9 @@
     <ClInclude Include="tomb4\specific\d3dmatrix.h">
       <Filter>tomb4\specific</Filter>
     </ClInclude>
+    <ClInclude Include="trngce\core_hooks.h">
+      <Filter>trngce</Filter>
+    </ClInclude>
     <ClInclude Include="trngce\discord.h">
       <Filter>trngce</Filter>
     </ClInclude>
@@ -530,6 +533,9 @@
     </ClCompile>
     <ClCompile Include="tomb4\specific\d3dmatrix.cpp">
       <Filter>tomb4\specific</Filter>
+    </ClCompile>
+    <ClCompile Include="trngce\core_hooks.cpp">
+      <Filter>trngce</Filter>
     </ClCompile>
     <ClCompile Include="trngce\discord.cpp">
       <Filter>trngce</Filter>

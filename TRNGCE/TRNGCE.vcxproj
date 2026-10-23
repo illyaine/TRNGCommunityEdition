@@ -199,6 +199,7 @@
     <ClInclude Include="tomb4\types.h" />
     <ClInclude Include="trngce\constants.h" />
     <ClInclude Include="trngce\discord.h" />
+    <ClInclude Include="trngce\core_hooks.h" />
     <ClInclude Include="trng\bass.h" />
     <ClInclude Include="trng\DefTomb4Funct.h" />
     <ClInclude Include="trng\ListTr4Patch.h" />
@@ -291,6 +292,7 @@
     <ClCompile Include="tomb4\specific\time.cpp" />
     <ClCompile Include="tomb4\specific\winmain.cpp" />
     <ClCompile Include="trngce\discord.cpp" />
+    <ClCompile Include="trngce\core_hooks.cpp" />
     <ClCompile Include="trng\ListTr4Patch.cpp" />
     <ClCompile Include="trng\Oggetti.cpp" />
     <ClCompile Include="trng\plugin.cpp" />
